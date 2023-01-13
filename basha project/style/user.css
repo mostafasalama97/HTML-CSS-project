@@ -26,8 +26,11 @@
 
 .container {
   width: 80%;
-  height: 5rem;
+  /* height: 5rem; */
   margin: auto;
+}
+body{
+  background-color: rgb(233, 233, 233);
 }
 
 .clear {
@@ -37,7 +40,7 @@
 /* strart navbar */
 .nav {
   width: 100%;
-  background-color: rgb(5, 0, 8);
+  background-color: rgb(250, 248, 248);
   position: sticky;
   z-index: 1;
   top: 0;
@@ -50,13 +53,19 @@
 .nav .logo img {
   float: left;
   padding: -0.2rem 0rem;
-  width: 10vw;
-  height: 5vw;
+  width: 6vw;
+  height: 4vw;
   margin-top: 0.5vw;
+  border-radius: 50%;
+}
+.nav .logo img:hover{
+  border: none;
+  width: 7vw;
+  height: 5vw;
 }
 
 .nav .nav_menu {
-  width:53%;
+  width:60%;
   float: right;
   list-style: none;
 }
@@ -68,24 +77,26 @@
 }
 
 .nav li a {
-  color: #fff;
+  color: #000;
   display: block;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   padding: 1.6rem 1rem;
 }
 
-.nav li a:hover {
-  background-color: red;
-  color: blue;
+.nav li a i {
+  /* color: green; */
+  margin-right: 0.5rem;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
-  font-family: 'Montserrat', sans-serif;
+.nav li a:hover {
+  background-color: rgb(163, 139, 139);
+  color: rgb(53, 53, 100);
+}
+
+
+#Users {
+  border-bottom: 9px solid grey;
 }
 
 h1 {
@@ -132,4 +143,43 @@ tr {
   display: inline-block;
 
 } */
+/* start footer */
 
+.footer {
+  position: relative;
+  background-color: rgb(204, 203, 203);
+  color: rgb(75, 74, 74);
+  width: 98.75vw;
+  /* top: 17vw; */
+  text-align: center;
+}
+
+.footer .na
+ {
+  /* margin: 0.7%; */
+  font-size: 2vw;
+  display: block;
+  
+}
+
+.footer .co{
+  font-size: 1.9vw;
+  font-weight: bold;
+}
+
+.footer .symbol {
+  /* margin: 2%; */
+  padding: 1%;
+  font-size: 14px;
+  font-size: 1.5vw;
+}
+.footer .symbol i {
+ display: block;
+ /* padding: 10px; */
+}
+.footer .symbol p {
+  display: inline-block;
+  padding-left: 1vw;
+}
+
+/* end footer */
