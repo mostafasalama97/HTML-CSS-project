@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.container {
+  width: 80%;
+  height: 5rem;
+  margin: auto;
+}
+
+.clear {
+  clear: both;
+}
+
+/* strart navbar */
+.nav {
+  width: 100%;
+  background-color: rgb(5, 0, 8);
+  position: sticky;
+  z-index: 1;
+  top: 0;
+}
+
+.nav .logo {
+  width: 35%;
+}
+
+.nav .logo img {
+  float: left;
+  padding: -0.2rem 0rem;
+  width: 10vw;
+  height: 5vw;
+  margin-top: 0.5vw;
+}
+
+.nav .nav_menu {
+  width:53%;
+  float: right;
+  list-style: none;
+}
+
+.nav li {
+  display: inline-block;
+
+
+}
+
+.nav li a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 1.6rem 1rem;
+}
+
+.nav li a:hover {
+  background-color: red;
+  color: blue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* start slidebar  */
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  right: 50%;
+  margin-top: 2.5%;
+}
+
+.mySlides img {
+  height: 25rem;
+}
+
+/* Caption text */
+.text {
+  color: gold;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 0.8rem 0.8rem;
+  position: absolute;
+  top: 25rem;
+  width: 80%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 1rem;
+  width: irem;
+  margin: 0 0.1rem;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .7
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+
+/* end slidebar */
+
+
+/* start section style */
+@media screen and (max-width: 500px) {
+  .section {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .section>div {
+    display: block;
+  }
+}
+
+.section {
+  position: relative;
+  top: 18vw;
+  width: 90vw;
+  margin: auto;
+  height: 30vw;
+  text-align: center;
+}
+
+.section>div {
+  display: inline-block;
+  width: 32%;
+  height: 28vw;
+  margin: auto;
+}
+
+.blockone {
+  border: 1px solid red;
+}
+
+.blocktwo {
+  border: 1px solid yellow;
+}
+
+.blockthree {
+  border: 1px solid blue;
+}
+
+.amego {
+  width: 90%;
+  height: 65%;
+  margin: 0.5rem;
+}
+
+/* end section */
+/* start footer */
+
+.footer {
+  position: relative;
+  background-color: black;
+  color: bisque;
+  width: 98.75vw;
+  top: 17vw;
+  text-align: center;
+}
+
+.footer .na
+ {
+  margin: 0.7%;
+  font-size: 18px;
+  display: block;
+}
+
+.footer .co{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.footer .symbol {
+  margin: 1%;
+  font-size: 14px;
+  
+}
+/* end footer */
