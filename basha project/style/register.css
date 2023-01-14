@@ -29,7 +29,8 @@
 	/* height: 5rem; */
 	margin: auto;
   }
-  body{
+  
+  body {
 	background-color: rgb(233, 233, 233);
   }
   
@@ -58,15 +59,19 @@
 	margin-top: 0.5vw;
 	border-radius: 50%;
   }
-  .nav .logo img:hover{
+  
+  .nav .logo img:hover {
 	border: none;
 	width: 7vw;
 	height: 5vw;
   }
   
   .nav .nav_menu {
-	width:60%;
+	width: 70%;
+	position: absolute;
 	float: right;
+	margin: auto;
+	left: 53vw;
 	list-style: none;
   }
   
@@ -80,8 +85,8 @@
 	color: #000;
 	display: block;
 	text-decoration: none;
-	font-size: 1.3rem;
-	padding: 1.6rem 1rem;
+	font-size: 1.3vw;
+	padding: 1vw 0.5vw;
   }
   
   .nav li a i {
@@ -90,12 +95,14 @@
   }
   
   .nav li a:hover {
-	background-color: rgb(163, 139, 139);
+	background-color: palegoldenrod;
 	color: rgb(53, 53, 100);
   }
-#Register {
-	border-bottom: 9px solid grey;
+  
+  #Register {
+	border-bottom: 2px solid rgb(48, 39, 39);
   }
+
   
 
  
@@ -107,7 +114,7 @@
 }
 
 .registration_form{
-	background: rgb(83, 83, 83);
+	background:palegoldenrod;
 	padding: 25px;
 	border-radius: 5px;
 	width: 400px;
@@ -117,9 +124,9 @@
 	text-align: center;
 	font-size: 20px;
 	text-transform: uppercase;
-	color: #180301;
+	color: maroon;
 	letter-spacing: 5px;
-	font-weight: 700;
+	font-weight: bold;
 }
 
 .form_wrap{
@@ -137,7 +144,8 @@
 .form_wrap .input_wrap label{
 	display: block;
 	margin-bottom: 3px;
-	color: #9597a6;
+	color: maroon;
+	font-weight: bold;
 }
 
 .form_wrap .input_grp{
@@ -167,6 +175,7 @@
 	border-radius: 3px;
 	display: flex;
 	justify-content: center;
+	list-style-type: none;
 }
 
 .form_wrap ul li:first-child{
@@ -190,65 +199,83 @@
 	font-size: 14px;
 	padding: 3px 20px;
 	border-radius: 3px;
-	color: #545871;
+	color: maroon;
+	font-weight: bold;
 }
 
 .form_wrap .input_radio:checked ~ span{
-	background: #ebd0ce;
+	background: #e8ebce;
 }
 
 .form_wrap .submit_btn{
 	width: 100%;
-	background: #ebd0ce;
+	background: black;
 	padding: 10px;
 	border: 0;
 	border-radius: 3px;
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	cursor: pointer;
+	font-weight: bold;
+	color: white;
 }
 
 .form_wrap .submit_btn:hover{
-	background: #ffd5d2;
+	background: rgb(43, 42, 33);
+	color: palegoldenrod;
 }
 
 /* start footer */
 
 .footer {
-	position: relative;
-	background-color: rgb(204, 203, 203);
-	color: rgb(75, 74, 74);
-	width: 98.75vw;
-	/* top: 17vw; */
-	text-align: center;
-  }
-  
-  .footer .na
-   {
-	/* margin: 0.7%; */
-	font-size: 2vw;
-	display: block;
-	
-  }
-  
-  .footer .co{
-	font-size: 1.9vw;
-	font-weight: bold;
-  }
-  
-  .footer .symbol {
-	/* margin: 2%; */
-	padding: 1%;
-	font-size: 14px;
-	font-size: 1.5vw;
-  }
-  .footer .symbol i {
-   display: block;
-   /* padding: 10px; */
-  }
-  .footer .symbol p {
-	display: inline-block;
-	padding-left: 1vw;
-  }
-  
-  /* end footer */
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  color: rgb(75, 74, 74);
+  width: 98.75vw;
+  /* top: 17vw; */
+  text-align: center;
+  /* position: fixed; */
+  /* bottom: 0; */
+}
+
+.footer .na {
+  /* margin: 0.7%; */
+  font-size: 1vw;
+  display: inline-block;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.footer .co {
+  padding-top: 1vw;
+  font-size: 0.9vw;
+  display: inline-block;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.footer .symbol {
+  /* margin: 2%; */
+  padding: 1.5vw;
+  font-size: 14px;
+  font-size: 1.5vw;
+  color: #fff;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.footer .symbol i {
+  /* display: block; */
+  padding: 1vw;
+  color: palegoldenrod;
+}
+
+.footer .symbol i:hover {}
+
+.footer .symbol span {
+  /* display: inline-block; */
+  /* padding-left: 1vw; */
+  /* color: #fff; */
+}
+
+/* end footer */

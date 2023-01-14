@@ -65,14 +65,17 @@ body{
 }
 
 .nav .nav_menu {
-  width:60%;
+  width:70%;
+  position: absolute;
   float: right;
+  margin: auto;
+  left: 53vw;
   list-style: none;
 }
 
 .nav li {
   display: inline-block;
-
+  
 
 }
 
@@ -80,8 +83,8 @@ body{
   color: #000;
   display: block;
   text-decoration: none;
-  font-size: 1.3rem;
-  padding: 1.6rem 1rem;
+  font-size: 1.3vw;
+  padding: 1vw 0.5vw;
 }
 
 .nav li a i {
@@ -94,35 +97,42 @@ body{
   color: rgb(53, 53, 100);
 }
 
-
 #Users {
-  border-bottom: 9px solid grey;
+  border-bottom: 2px solid rgb(48, 39, 39);
 }
 
 h1 {
   text-align: center;
+  font-size: 4vw;
+  width: 15vw;
+  border-bottom: 2px solid rgb(134, 123, 145);
+  margin: auto;
 }
 
 table, th, td {
-  border: 0 solid black;
+  border-bottom: 1px solid black;
+  padding: 0.5vw;
+  font-size: 1.5vw;
 }
 
 table {
   font-family: Arial, Helvetica, sans-serif;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
   border-collapse: collapse;
   width: 70%;
   text-align: center;
+  margin-bottom: 1.9vw;
+  /* border: 1.5px solid black; */
 }
 
 th, td {
   width: 10%;
+  
 }
 
 th {
   background-color: black;
-  color: white;
+  color: palegoldenrod;
 }
 
 tr {
@@ -131,7 +141,7 @@ tr {
 }
 
 .table tr:nth-child(odd){
-  background-color: gainsboro;
+  background-color: white;
 }
 /* .bl7img {
   left: 0;
@@ -143,43 +153,58 @@ tr {
   display: inline-block;
 
 } */
-/* start footer */
+
 
 .footer {
   position: relative;
-  background-color: rgb(204, 203, 203);
+  background-color: rgb(0, 0, 0);
   color: rgb(75, 74, 74);
   width: 98.75vw;
   /* top: 17vw; */
   text-align: center;
+  position: fixed;
+  bottom: 0;
 }
 
 .footer .na
  {
   /* margin: 0.7%; */
-  font-size: 2vw;
-  display: block;
-  
+  font-size: 1vw;
+  display: inline-block;
+  text-transform: capitalize;
+  color: #fff;
 }
 
 .footer .co{
-  font-size: 1.9vw;
-  font-weight: bold;
+  padding-top: 1vw;
+  font-size: 0.9vw;
+  display: inline-block;
+  color: #fff;
+  text-transform: capitalize;
 }
 
 .footer .symbol {
   /* margin: 2%; */
-  padding: 1%;
+  padding: 1.5vw;
   font-size: 14px;
   font-size: 1.5vw;
+  color: #fff;
+  text-transform: capitalize;
+  text-decoration: none;
 }
 .footer .symbol i {
- display: block;
- /* padding: 10px; */
+ /* display: block; */
+ padding: 1vw;
+ color: palegoldenrod;
 }
-.footer .symbol p {
-  display: inline-block;
-  padding-left: 1vw;
+
+.footer .symbol i:hover{
+
+}
+.footer .symbol span {
+  /* display: inline-block; */
+  /* padding-left: 1vw; */
+  /* color: #fff; */
 }
 
 /* end footer */
