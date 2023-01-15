@@ -99,8 +99,12 @@ body {
   color: rgb(53, 53, 100);
 }
 
-#Contact {
+#Contacta {
   border-bottom: 2px solid rgb(48, 39, 39);
+}
+
+#home {
+  border-bottom: none;
 }
 
 /* Style inputs */
