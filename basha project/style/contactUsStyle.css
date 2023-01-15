@@ -29,7 +29,8 @@
   /* height: 5rem; */
   margin: auto;
 }
-body{
+
+body {
   background-color: rgb(233, 233, 233);
 }
 
@@ -58,16 +59,20 @@ body{
   margin-top: 0.5vw;
   border-radius: 50%;
 }
-.nav .logo img:hover{
+
+.nav .logo img:hover {
   border: none;
   width: 7vw;
   height: 5vw;
 }
 
 .nav .nav_menu {
-  width:60%;
-  float: right;
-  list-style: none;
+  width: 39%;
+	position: absolute;
+	float: right;
+	margin: auto;
+	left: 50vw;
+	list-style: none;
 }
 
 .nav li {
@@ -80,97 +85,131 @@ body{
   color: #000;
   display: block;
   text-decoration: none;
-  font-size: 1.3rem;
-  padding: 1.6rem 1rem;
+  font-size: 1.3vw;
+  padding: 1vw 0.5vw;
 }
 
 .nav li a i {
   /* color: green; */
-  margin-right: 0.5rem;
+  margin-right: 0.5vw;
 }
 
 .nav li a:hover {
-  background-color: rgb(163, 139, 139);
+  background-color: palegoldenrod;
   color: rgb(53, 53, 100);
 }
-
 #Contact {  
-  border-bottom: 9px solid grey;
+  border-bottom: 2px solid rgb(48, 39, 39);
 }
 
-
-label {
-    display: inline-block;
-    padding-right: 10px;
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 1vw;
+  border: 1px solid #ccc;
+  margin-top: 0.5vw;
+  margin-bottom: 1.5vw;
+  resize: vertical;
 }
 
-textarea {
-    display: inline;
-}
-
-input[type=email] {
-    width: 260px;
-    height: 20px;
-}
 
 input[type=submit] {
-    width: 100px;
-    height: 25px;
-    border-radius: 10px;
-    background-color: black;
-    text-align: center;
-    color: white;
-    font-weight: bold;
+  background-color: palegoldenrod;
+  color: white;
+  padding: 0.7vw 1.5vw;
+  border: none;
+  cursor: pointer;
 }
 
 input[type=submit]:hover {
-    text-decoration: none;
-    color: red;
-    font-weight: bold;
+  background-color: paleturquoise;
+  cursor: pointer;
 }
 
-.form2 {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+/* Style the container/contact section */
+.coco {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.coco p{
+  text-transform: capitalize;
+}
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 0.5vw;
+  padding: 1.7vw;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
 /* start footer */
 
 .footer {
   position: relative;
-  background-color: rgb(204, 203, 203);
+  background-color: rgb(0, 0, 0);
   color: rgb(75, 74, 74);
   width: 98.75vw;
   /* top: 17vw; */
   text-align: center;
+  /* position: fixed; */
+  /* bottom: 0; */
+  margin-top: 4vw;
 }
 
-.footer .na
- {
+.footer .na {
   /* margin: 0.7%; */
-  font-size: 2vw;
-  display: block;
-  
+  font-size: 1vw;
+  display: inline-block;
+  text-transform: capitalize;
+  color: #fff;
 }
 
-.footer .co{
-  font-size: 1.9vw;
-  font-weight: bold;
+.footer .co {
+  padding-top: 1vw;
+  font-size: 0.9vw;
+  display: inline-block;
+  color: #fff;
+  text-transform: capitalize;
 }
 
 .footer .symbol {
   /* margin: 2%; */
-  padding: 1%;
+  padding: 1.5vw;
   font-size: 14px;
   font-size: 1.5vw;
+  color: #fff;
+  text-transform: capitalize;
+  text-decoration: none;
 }
+
 .footer .symbol i {
- display: block;
- /* padding: 10px; */
+  /* display: block; */
+  padding: 1vw;
+  color: palegoldenrod;
 }
-.footer .symbol p {
-  display: inline-block;
-  padding-left: 1vw;
+
+.footer .symbol i:hover {}
+
+.footer .symbol span {
+  /* display: inline-block; */
+  /* padding-left: 1vw; */
+  /* color: #fff; */
 }
 
 /* end footer */

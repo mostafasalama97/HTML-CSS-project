@@ -67,12 +67,12 @@ body {
 }
 
 .nav .nav_menu {
-  width: 70%;
-  position: absolute;
-  float: right;
-  margin: auto;
-  left: 53vw;
-  list-style: none;
+  width: 39%;
+	position: absolute;
+	float: right;
+	margin: auto;
+	left: 50vw;
+	list-style: none;
 }
 
 .nav li {
