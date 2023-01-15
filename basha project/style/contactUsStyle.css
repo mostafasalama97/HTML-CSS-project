@@ -68,11 +68,11 @@ body {
 
 .nav .nav_menu {
   width: 39%;
-	position: absolute;
-	float: right;
-	margin: auto;
-	left: 50vw;
-	list-style: none;
+  position: absolute;
+  float: right;
+  margin: auto;
+  left: 50vw;
+  list-style: none;
 }
 
 .nav li {
@@ -98,12 +98,15 @@ body {
   background-color: palegoldenrod;
   color: rgb(53, 53, 100);
 }
-#Contact {  
+
+#Contact {
   border-bottom: 2px solid rgb(48, 39, 39);
 }
 
 /* Style inputs */
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
   width: 100%;
   padding: 1vw;
   border: 1px solid #ccc;
@@ -114,16 +117,17 @@ input[type=text], select, textarea {
 
 
 input[type=submit] {
-  background-color: palegoldenrod;
-  color: white;
+  background-color: black;
+  color: palegoldenrod;
   padding: 0.7vw 1.5vw;
   border: none;
   cursor: pointer;
+  text-transform: capitalize;
 }
 
 input[type=submit]:hover {
-  background-color: paleturquoise;
-  cursor: pointer;
+cursor: pointer;
+color: grey;
 }
 
 /* Style the container/contact section */
@@ -133,9 +137,10 @@ input[type=submit]:hover {
   padding: 10px;
 }
 
-.coco p{
+.coco p {
   text-transform: capitalize;
 }
+
 /* Create two columns that float next to eachother */
 .column {
   float: left;
@@ -153,11 +158,14 @@ input[type=submit]:hover {
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column, input[type=submit] {
+
+  .column,
+  input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
 }
+
 /* start footer */
 
 .footer {
